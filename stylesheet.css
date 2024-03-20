@@ -1,0 +1,37 @@
+body {
+    background-color: #f4eaec;
+   margin: auto;
+}
+
+h1  { 
+    color:#926B73;
+     font-size: 1000%;
+     font-family: "Sixtyfour", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:"BLED" 0,
+}
+
+p,ul {
+color:#98865D;
+font-size:900% ;
+font-family: "Advent Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:"wdth" 100;
+}
+
+h2 {
+    color:#AD8890 ;
+    font-size: 900%;
+    font-family: "Carme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 10cm;
+    height: 8cm;
+    }
