@@ -1,37 +1,76 @@
 body {
-    background-color: #f4eaec;
-   margin: auto;
+    background-color: #6D67C2;
+    margin: auto;
 }
 
-h1  { 
-    color:#926B73;
-     font-size: 1000%;
-     font-family: "Sixtyfour", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: 400;
-     font-style: normal;
-     font-variation-settings:"BLED" 0,
+h1 {
+    position: absolute;
+    left: 100px;
+    top: -100px;
+    font-size: 300px;
+    color: #d3330d
+
+}
+h1 {
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+      
 }
 
-p,ul {
-color:#98865D;
-font-size:900% ;
-font-family: "Advent Pro", sans-serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
-font-variation-settings:"wdth" 100;
-}
 
 h2 {
-    color:#AD8890 ;
-    font-size: 900%;
-    font-family: "Carme", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 200px;
+    position: absolute;
+    top: 1150px;
+    left: 2850px;
+    color: #d3330d 
+}
+h2 {
+font-family: "Bebas Neue", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+p {
+    position: absolute;
+    top: 1500px;
+    left:3050px;
+    font-size: 100px;
+    color: white;
+    
+}
+p {
+    font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-img {
-    width: 10cm;
-    height: 8cm;
-    }
+.home {
+    position: absolute;
+    top: 1640px;
+    left: 2900px;
+}
+
+.cv {
+    position: absolute;
+    top: 1760px;
+    left: 2900px;
+}
+
+.portf {
+    position: absolute;
+    top: 1890px;
+    left: 2900px;
+}
+
+.curriculum {
+    position: absolute;
+    top: 1500px;
+    left: 130px;
+}
+
+.portfolio {
+    position: absolute;
+    top: 1500px;
+    right: 130px;
+}
