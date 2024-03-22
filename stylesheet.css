@@ -9,12 +9,13 @@ h1 {
     top: -100px;
     font-size: 300px;
     color: #d3330d
-
 }
 h1 {
  font-family: "Bebas Neue", sans-serif;
  font-weight: 400;
  font-style: normal;
+ display:flex;
+ flex-direction: row;
       
 }
 
@@ -31,6 +32,7 @@ font-family: "Bebas Neue", sans-serif;
  font-weight: 400;
  font-style: normal;
 }
+
 p {
     position: absolute;
     top: 1500px;
@@ -63,14 +65,28 @@ p {
     left: 2900px;
 }
 
-.curriculum {
-    position: absolute;
-    top: 1500px;
-    left: 130px;
-}
-
 .portfolio {
     position: absolute;
     top: 1500px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.curriculum {
+    position: absolute;
+    top: 1500px;
     right: 130px;
+    cursor: pointer;
+}
+
+
+.mappatesto {
+    display:flex;
+    flex direction:row;
+
+}
+.mappaicon {
+    display:flex;
+    flex direction:row;
+
 }
