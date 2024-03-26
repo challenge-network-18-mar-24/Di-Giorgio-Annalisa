@@ -3,34 +3,29 @@ body {
     margin: auto;
 }
 
-h1 {
-    position: absolute;
-    left: 100px;
-    top: -100px;
-    font-size: 300px;
-    color: #d3330d
-}
+/* TITOLI */   
 h1 {
  font-family: "Bebas Neue", sans-serif;
  font-weight: 400;
  font-style: normal;
  display:flex;
  flex-direction: row;
+ position: absolute;left: 100px;
+top: -100px;
+font-size: 300px;
+color: #d3330d
       
 }
 
-
 h2 {
-    font-size: 200px;
-    position: absolute;
-    top: 1150px;
-    left: 2850px;
-    color: #d3330d 
-}
-h2 {
-font-family: "Bebas Neue", sans-serif;
+ font-family: "Bebas Neue", sans-serif;
  font-weight: 400;
  font-style: normal;
+ font-size: 200px;
+ position: absolute;
+ top: 1150px;
+ left: 2850px;
+ color: #d3330d
 }
 
 p {
@@ -39,14 +34,12 @@ p {
     left:3050px;
     font-size: 100px;
     color: white;
-    
-}
-p {
     font-family: "Thasadith", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* ICONE */
 .home {
     position: absolute;
     top: 1640px;
@@ -65,21 +58,28 @@ p {
     left: 2900px;
 }
 
+/* BOTTONI */ 
 .portfolio {
     position: absolute;
     top: 1500px;
     left: 130px;
     cursor: pointer;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
 }
 
 .curriculum {
-    position: absolute;
-    top: 1500px;
-    right: 130px;
     cursor: pointer;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
 }
 
 
+/* FLEXBOX */   
 .mappatesto {
     display:flex;
     flex direction:row;
@@ -90,3 +90,4 @@ p {
     flex direction:row;
 
 }
+

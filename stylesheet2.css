@@ -1,0 +1,102 @@
+body {
+    background-color: #6D67C2;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #d3330d
+   }
+   /* TITOLI SEZIONE SINISTRA */
+   .istruzione {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #d3330d
+   }
+   .esperienza {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #d3330d
+   }
+   .lingue {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #d3330d
+   }
+   .skills {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #d3330d
+   }
+   .competenze {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #d3330d
+   }
+/* PARAGRAFI SEZIONE SINISTRA */
+.istr {
+    color: white;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.esp {
+    color: white;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ling {
+    color: white;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.skill {
+    color: white;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.comp {
+    color: white;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* FLEXBOX SEZIONE SINISTRA */
+
+.cv {
+    display: flex;
+    flex direction: column;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    float: left;
+    
+}
+
+.chisono {
+    display: flex;
+    flex direction: column;
+    flex-flow: column wrap-reverse;
+    flex-wrap: wrap;
+    justify-content: flex end;
+    align-items:stretch;
+    float: right;
+}
