@@ -1,93 +1,19 @@
 body {
     background-color: #6D67C2;
-    margin: auto;
 }
 
-/* TITOLI */   
-h1 {
- font-family: "Bebas Neue", sans-serif;
- font-weight: 400;
- font-style: normal;
- display:flex;
- flex-direction: row;
- position: absolute;left: 100px;
-top: -100px;
-font-size: 300px;
-color: #d3330d
-      
+.designstudent {
+    color: #DA3330;
 }
 
-h2 {
- font-family: "Bebas Neue", sans-serif;
- font-weight: 400;
- font-style: normal;
- font-size: 200px;
- position: absolute;
- top: 1150px;
- left: 2850px;
- color: #d3330d
+h1,h2 {
+    color:#DA3330;
 }
 
-p {
-    position: absolute;
-    top: 1500px;
-    left:3050px;
-    font-size: 100px;
-    color: white;
-    font-family: "Thasadith", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* ICONE */
-.home {
-    position: absolute;
-    top: 1640px;
-    left: 2900px;
-}
-
-.cv {
-    position: absolute;
-    top: 1760px;
-    left: 2900px;
-}
-
-.portf {
-    position: absolute;
-    top: 1890px;
-    left: 2900px;
-}
-
-/* BOTTONI */ 
-.portfolio {
-    position: absolute;
-    top: 1500px;
-    left: 130px;
-    cursor: pointer;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
+h4 {
+    color: #DA3330;;
 }
 
 .curriculum {
-    cursor: pointer;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
+    padding-top: 10%;
 }
-
-
-/* FLEXBOX */   
-.mappatesto {
-    display:flex;
-    flex direction:row;
-
-}
-.mappaicon {
-    display:flex;
-    flex direction:row;
-
-}
-
