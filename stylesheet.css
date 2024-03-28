@@ -28,6 +28,7 @@ h3 {
 }
 
 .hobby {
+    padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
 
@@ -45,4 +46,17 @@ hr {
 
 #foot {
     background-color: #DA3330;
+}
+
+.portfolio {
+justify-content: center;
+text-align: center;
+padding-top: 5%;
+}
+
+.btn-secondary {
+    color:#ffff;
+    background-color: #4B0888;
+    border-color: #4B0888;
+    transition: .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
