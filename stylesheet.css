@@ -1,19 +1,48 @@
-body {
+.sfondo {
     background-color: #6D67C2;
 }
 
-.designstudent {
+h1,
+h2,
+h4,
+h6 {
     color: #DA3330;
 }
 
-h1,h2 {
-    color:#DA3330;
-}
-
-h4 {
-    color: #DA3330;;
+p {
+    color: white;
 }
 
 .curriculum {
     padding-top: 10%;
+}
+
+h3 {
+    color: #F9A542;
+}
+
+.corpo {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.hobby {
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.tab {
+    padding-top: 7%;
+}
+
+hr {
+    border-top: #F9A542 solid;
+    padding-bottom: 5%;
+}
+
+
+#foot {
+    background-color: #DA3330;
 }
