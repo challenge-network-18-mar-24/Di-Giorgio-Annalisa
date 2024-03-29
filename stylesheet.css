@@ -1,5 +1,11 @@
+/* COLORI */
 .sfondo {
     background-color: #6D67C2;
+}
+
+hr {
+    border-top: #F9A542 solid;
+    padding-bottom: 5%;
 }
 
 h1,
@@ -13,13 +19,26 @@ p {
     color: white;
 }
 
+h3 {
+    color: #F9A542;
+}
+
+.btn-secondary {
+    color: #ffff;
+    background-color: #4B0888;
+    border-color: #4B0888;
+    transition: .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#foot {
+    background-color: #DA3330;
+}
+
+/* POSIZIONAMENTI */
 .curriculum {
     padding-top: 10%;
 }
 
-h3 {
-    color: #F9A542;
-}
 
 .corpo {
     padding-left: 5%;
@@ -28,7 +47,7 @@ h3 {
 }
 
 .hobby {
-    padding-top: 2%;
+    padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
 
@@ -38,25 +57,16 @@ h3 {
     padding-top: 7%;
 }
 
-hr {
-    border-top: #F9A542 solid;
-    padding-bottom: 5%;
-}
-
-
-#foot {
-    background-color: #DA3330;
-}
-
 .portfolio {
+    display: flex;
     justify-content: center;
     text-align: center;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.btn-secondary {
-    color: #ffff;
-    background-color: #4B0888;
-    border-color: #4B0888;
-    transition: .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+.card-body {
+    background: rgb(109, 103, 194);
+    background: linear-gradient(0deg, rgba(109, 103, 194, 1) 0%, rgba(75, 8, 136, 1) 100%);
+    color: #DA3330;
 }
